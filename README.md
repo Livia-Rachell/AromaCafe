@@ -26,10 +26,33 @@ git clone https://github.com/Livia-Rachell/AromaCafe.git
 2. Acesse a pasta do projeto:
 
 ```bash
-cd aroma-cafe
+cd AromaCafe
 ```
 
-3. Abra o arquivo `index.html` no navegador.
+3. Crie e ative o ambiente virtual:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+4. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Execute o servidor Django:
+
+```bash
+python manage.py runserver
+```
+
+6. Abra no navegador:
+
+```text
+http://127.0.0.1:8000/AromaCafe/
+```
 
 ## 🤝 Atividade Colaborativa
 

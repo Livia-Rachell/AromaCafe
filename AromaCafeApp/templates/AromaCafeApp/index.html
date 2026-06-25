@@ -1,10 +1,11 @@
+{% load static %}
 <!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aroma Café — Cafés Especiais</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{% static 'AromaCafeApp/css/style.css' %}" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet"
@@ -16,11 +17,11 @@
         <h1 class="logo">Aroma Café</h1>
         <nav>
           <a href="#">Início</a>
-          <a href="cardapio.html">Cardápio</a>
-          <a href="#sobre">Sobre</a>
-          <a href="#diferenciais">Diferenciais</a>
-          <a href="#avaliacoes">Avaliações</a>
-          <a href="contato.html">Contato</a>
+          <a href="{% url 'AromaCafeApp:cardapio' %}">Cardápio</a>
+          <a href="{% url 'AromaCafeApp:index' %}#sobre">Sobre</a>
+          <a href="{% url 'AromaCafeApp:index' %}#diferenciais">Diferenciais</a>
+          <a href="{% url 'AromaCafeApp:index' %}#avaliacoes">Avaliações</a>
+          <a href="{% url 'AromaCafeApp:contato' %}">Contato</a>
         </nav>
       </div>
     </header>
@@ -34,9 +35,9 @@
           preparados com paixão. Cada xícara conta uma história.
         </p>
         <div class="hero-buttons">
-          <a href="cardapio.html"
-            ><button class="btn-primary">Ver Cardápio</button></a
-          >
+          <a href="{% url 'AromaCafeApp:cardapio' %}">
+            <button class="btn-primary">Ver Cardápio</button>
+          </a>
           <button class="btn-secondary">Fazer Reserva</button>
         </div>
       </div>

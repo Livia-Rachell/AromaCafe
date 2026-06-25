@@ -1,10 +1,11 @@
+{% load static %}
 <!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cardápio — Aroma Café</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{% static 'AromaCafeApp/css/style.css' %}" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet"
@@ -15,12 +16,12 @@
       <div class="header-inner">
         <h1 class="logo">Aroma Café</h1>
         <nav>
-          <a href="index.html">Início</a>
+          <a href="{% url 'AromaCafeApp:index' %}">Início</a>
           <a href="#">Cardápio</a>
-          <a href="index.html#sobre">Sobre</a>
-          <a href="index.html#diferenciais">Diferenciais</a>
-          <a href="index.html#avaliacoes">Avaliações</a>
-          <a href="contato.html">Contato</a>
+          <a href="{% url 'AromaCafeApp:index' %}#sobre">Sobre</a>
+          <a href="{% url 'AromaCafeApp:index' %}#diferenciais">Diferenciais</a>
+          <a href="{% url 'AromaCafeApp:index' %}#avaliacoes">Avaliações</a>
+          <a href="{% url 'AromaCafeApp:contato' %}">Contato</a>
         </nav>
       </div>
     </header>
