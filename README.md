@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para fins educacionais, simulando o site institucional de uma cafeteria fictícia.
 
-O objetivo deste projeto é praticar conceitos básicos de desenvolvimento web utilizando HTML e CSS, além de introduzir o uso de Git e GitHub para trabalho colaborativo.
+O objetivo deste projeto é praticar conceitos básicos de Git e GitHub, além de apoiar o desenvolvimento web utilizando HTML, CSS e Django.
 
 ## 📖 Sobre o Projeto
 
@@ -12,6 +12,7 @@ A Aroma Café é uma cafeteria fictícia criada para servir como exemplo em ativ
 
 - HTML5
 - CSS3
+- Django
 - Git
 - GitHub
 
@@ -33,7 +34,7 @@ cd AromaCafe
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
+venv/Scripts/activate
 ```
 
 4. Instale as dependências:
@@ -62,4 +63,4 @@ O objetivo é demonstrar como o Git permite que várias pessoas trabalhem simult
 
 ## 📌 Observação
 
-Este projeto possui finalidade exclusivamente educacional e foi desenvolvido para apoiar aulas introdutórias de Git, GitHub, HTML e CSS..
+Este projeto possui finalidade exclusivamente educacional e foi desenvolvido para apoiar aulas introdutórias de Git, GitHub, HTML,CSS e Django.
