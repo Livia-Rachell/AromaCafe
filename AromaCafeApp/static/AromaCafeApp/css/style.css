@@ -10,8 +10,6 @@ html {
 
 body {
   font-family: "Inter", Arial, sans-serif;
-  background: #f7f3ef;
-  color: #3b2f2f;
   line-height: 1.6;
 }
 
@@ -873,7 +871,9 @@ footer {
   border-radius: 10px;
   background: white;
   color: #3b2f2f;
-  transition: border-color 0.3s, box-shadow 0.3s;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
   outline: none;
 }
 
@@ -973,7 +973,9 @@ footer {
   font-size: 1rem;
   text-decoration: none;
   border-radius: 10px;
-  transition: background 0.3s, transform 0.2s;
+  transition:
+    background 0.3s,
+    transform 0.2s;
 }
 
 .whatsapp-btn:hover {
