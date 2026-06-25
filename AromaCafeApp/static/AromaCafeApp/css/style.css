@@ -108,15 +108,15 @@ nav a:hover {
 
 .hero-buttons {
   display: flex;
-  gap: 14px;
+  gap: 16px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .btn-primary {
   margin: 0;
-  padding: 14px 32px;
-  border: none;
+  padding: 16px 32px;
+  border: 2px solid #5c3d2e;
   background: #5c3d2e;
   color: white;
   font-size: 1rem;
@@ -135,7 +135,7 @@ nav a:hover {
 
 .btn-secondary {
   margin: 0;
-  padding: 14px 32px;
+  padding: 16px 32px;
   border: 2px solid #5c3d2e;
   background: transparent;
   color: #5c3d2e;
